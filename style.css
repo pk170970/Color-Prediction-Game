@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E5D68A;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    text-align: center;
+}
+
+
+.heading {
+    background-color: #10363b;
+    padding: 2em;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+.random-colors{
+    display: flex;
+    gap: 2em;
+}
+
+.random{
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.random:hover{
+    border: 2px solid black;
+}
+#random-red{
+    background-color: red;
+    color: white;
+}
+
+#random-green{
+    background-color: green;
+    color: white;
+}
+#random-blue{
+    background-color: blue;
+    color: white;
+}
+
+.color-pickers{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 60%;
+    height: 60vh;
+    
+}
+
+.row{
+    display: flex;
+    gap: 1em;
+    width: 100%;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.random-pickers{
+    background-color: rgb(255, 47, 217);
+    width: 30%;
+    height: 30vh;
+    border-radius:7px;
+    max-width: 250px;
+}
+
+
+@media (max-width:700px){
+
+    .color-pickers{
+        width: 90%;
+    }
+    .random-pickers{
+       max-width: 150px;
+       height: 100px;
+       width: 100%;
+    }
+}
