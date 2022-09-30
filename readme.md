@@ -23,7 +23,7 @@ I got this assignment from iNeuron Bootcamp.
 
 ## Links
 
-[Link](javascriptmycolorpredictiongame.netlify.app)
+[Link](https://javascriptmycolorpredictiongame.netlify.app/)
 
 [Linkedin](https://www.linkedin.com/in/pratyush-kesarwani-2b6601171/)
 
